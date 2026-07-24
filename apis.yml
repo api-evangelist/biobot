@@ -1,8 +1,15 @@
 aid: biobot
 name: Biobot
-description: 'Biobot is a company surfaced as a portfolio company of homebrew and added to the API Evangelist
-  network as a stub for enrichment. Sector: healthcare. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Biobot Analytics is a wastewater epidemiology company that operates a
+  wastewater intelligence platform, analyzing sewage samples to detect and track more
+  than 50 human health indicators — including pathogens (SARS-CoV-2, influenza, RSV,
+  measles, norovirus), substances (fentanyl, cocaine, methamphetamine, buprenorphine),
+  and public-health threats (HIV, mpox, poliovirus, Candida auris) — before they surface
+  in conventional reporting. Founded from MIT research and headquartered in Cambridge,
+  Massachusetts, Biobot serves federal, state, and local government agencies, pharmaceutical
+  and life-sciences companies, and healthcare systems through dashboards, CSV exports,
+  map visualizations, and enterprise data integrations. Biobot does not publish a public
+  self-serve developer API; data access is arranged directly with the company.'
 url: https://raw.githubusercontent.com/api-evangelist/biobot/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +17,31 @@ x-backed-by:
 - homebrew
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://biobot.io/wp-content/uploads/2025/11/biobot-logo.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Healthcare
+- Wastewater
+- Epidemiology
+- Public Health
+- Data
+- Analytics
+- Government
+- Life Sciences
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +49,26 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/biobot-domain-security.yml
 - type: Website
   url: http://www.biobot.io
+- type: Login
+  url: https://explore.biobot.io/
+- type: SignUp
+  url: https://biobot.io/get-a-demo/
+- type: Support
+  url: https://support.biobot.io/hc/en-us
+- type: Blog
+  url: https://biobotanalytics.substack.com/
+- type: GitHubOrganization
+  url: https://github.com/biobotanalytics
+- type: PrivacyPolicy
+  url: https://biobot.io/privacy-policy/
+- type: TermsOfService
+  url: https://biobot.io/terms-of-service/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
