@@ -42,7 +42,7 @@ accessModel:
 image: https://biobot.io/wp-content/uploads/2025/11/biobot-logo.png
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-18'
+modified: '2026-10-06'
 tags:
 - Company
 - Healthcare
@@ -60,6 +60,10 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- url: https://biobotanalytics.substack.com/t/blog
+  type: Blog
+- url: https://biobotanalytics.substack.com/feed
+  type: BlogRSS
 - type: About
   url: https://biobot.io/about-biobot/
 - type: DomainSecurity
